@@ -1,0 +1,10 @@
+/*
+File Name: question2.text
+Description: The assignment was to write an iterator for a vector of ints and
+			 initialized to the first member of the vector vec.
+Author: Anthony Hansen
+Email Address: hansen.tony92@gmail.com
+Date Created: Thu May 29 15:01:15 PDT 2014
+*/
+
+vector<int>::iterator it = vec.begin();

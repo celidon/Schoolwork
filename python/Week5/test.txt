@@ -1,0 +1,3 @@
+This is a very similar program to the scramble text program which we made previously.
+It should have the same basic characteristics of the other program.
+This is just some SIMPLE and EASY test.

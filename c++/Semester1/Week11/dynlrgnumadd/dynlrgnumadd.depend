@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1385059619 source:c:\users\tony\google drive\school-vvc-f2013\c++\week11\dynlrgnumadd\dynlrgnumadd.cpp
+	<iostream>
+	<string>
+	<cctype>
+

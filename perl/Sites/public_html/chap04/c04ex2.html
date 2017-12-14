@@ -1,0 +1,24 @@
+<!c04ex2.html>
+<HTML>
+<HEAD><TITLE>Juniper Printers</TITLE></HEAD>
+<BODY>
+<H1>Juniper Printers - Product Registration Form</H1>
+<HR>
+
+<FORM ACTION="../../cgi-bin/chap04/c04ex2.cgi" METHOD=POST>
+<P><B>Name:</B>       <INPUT TYPE=text NAME=Name   SIZE=40>
+<B>Serial number:</B> <INPUT TYPE=text NAME=Serial SIZE=10></P>
+
+<P><B>Printer model:</B><BR>
+<INPUT TYPE=radio NAME=Model Value=0 CHECKED> Laser JX<BR>
+<INPUT TYPE=radio NAME=Model Value=1>         Laser PL<BR>
+<INPUT TYPE=radio NAME=Model Value=2>         ColorPrint XL</P>
+
+<P><B>Operating system:</B><BR>
+<INPUT TYPE=radio NAME=System Value=0 CHECKED> Windows<BR>
+<INPUT TYPE=radio NAME=System Value=1>         Macintosh<BR>
+<INPUT TYPE=radio NAME=System Value=2>         UNIX</P>
+
+<P><INPUT TYPE=submit VALUE="Submit Registration">
+<INPUT TYPE=reset     VALUE="Reset the Form"></P>
+</FORM></BODY></HTML>

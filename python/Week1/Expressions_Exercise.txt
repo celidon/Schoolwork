@@ -1,0 +1,23 @@
+"""
+
+File Name: Expressions_Exercise.txt
+Developer: Anthony Hansen
+Date Last Modified: 31.08.2013
+Description: The assignment was to find the output of a mathematical
+             expression and then edit it to increase readability for
+			 users.
+Email Address: hansen.tony92@gmail.com
+
+"""
+
+Given the expression 30 - 3 ** 2 + 8 // 3 ** 2 * 10,
+
+a) What is the output of the expression?
+
+21
+
+b) Based on precedence and associativity of the operators in Python, 
+   correctly parenthesize the expression such that you get the  same
+   output as above.
+
+30 - (3 ** 2) + ((8 // (3 ** 2)) * 10)

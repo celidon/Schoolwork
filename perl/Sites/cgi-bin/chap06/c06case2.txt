@@ -1,0 +1,5 @@
+Jerry Stover,265
+Charles Patterson,212
+Martin Long,280
+Harry Hoenig,288
+Kevin Jacobs,169

@@ -1,0 +1,11 @@
+/*
+File Name: question3.txt
+Description: 
+Author: Anthony Hansen
+Email Address: hansen.tony92@gmail.com
+Date Created: Thu May 29 15:07:38 PDT 2014
+*/
+for (vector<int>::iterator it = vec.begin(); it!=vec.end(); it++)
+{
+	cout <<*it<<" ";
+}

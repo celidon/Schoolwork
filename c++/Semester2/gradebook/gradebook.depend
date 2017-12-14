@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1392579556 source:f:\school-vvc-s2014\c++\gradebook\gradebook.cpp
+	<iostream>
+	<iomanip>
+

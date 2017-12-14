@@ -1,0 +1,3 @@
+Is the number less than 20?
+Is the number greater than 2?
+Is the number divisible by 3?

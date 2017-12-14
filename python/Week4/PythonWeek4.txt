@@ -1,0 +1,89 @@
+"""
+
+File Name: PythonWeek4.txt
+Developer: Anthony Hansen
+Date Last Modified: 19.09.2013
+Description: The assignment was to answer questions 1, 2, 3, 10,
+             12, 13, 14, 20, 23, 29 from the end of Chapter 4 in
+			 the text.
+Email Address: hansen.tony92@gmail.com
+
+"""
+
+1) monty_str="Monty Python"
+    a) monty_str[0]
+	b) monty_str[11]
+	c) int(length_str) = len(monty_str)
+	   monty_str[length_str]
+	d) monty_str[0:6]
+----------------------------------------------------------------
+2) word_str="homebody"
+    a) word_str[0:4]
+	b) word_str[4:8]
+----------------------------------------------------------------
+3) S = "Something with even characters"
+    a) S[:int((len(S))/2)]
+	b) S[int((len(S))/2):]
+----------------------------------------------------------------
+10) S = "I had a cat named amanda when I was little"
+    count = 0
+    i = 0
+    while(i < int(len(S))):
+        if S[i] == "a":
+            count = count + 1
+        i += 1
+    print(count)
+----------------------------------------------------------------
+12) The program is looking for integers and is being given a string 
+----------------------------------------------------------------
+13) print("I like writing in Python.\nIt is so much fun.")
+----------------------------------------------------------------
+14) s1 = 'concord'
+    s2 = 'souix city'
+	s3 = 'HONOLULU'
+	s4 = 'TopHat'
+    a)capitalize makes the first letter capital and puts the rest 
+	  of the string in lowercase
+	  s1 = 'Concord'
+      s2 = 'Souix city'
+	  s3 = 'Honolulu'
+	  s4 = 'Tophat'
+	b)swapcase switches the cases in the string
+	  s1 = 'CONCORD'
+      s2 = 'SOUIX CITY'
+	  s3 = 'honolulu'
+	  s4 = 'tOPhAT'
+	c)upper puts the entire string in uppercase
+	  s1 = 'CONCORD'
+      s2 = 'SOUIX CITY'
+	  s3 = 'HONOLULU'
+	  s4 = 'TOPHAT'
+	d)lower puts the entire string in lowercase
+	  s1 = 'concord'
+      s2 = 'souix city'
+	  s3 = 'honolulu'
+	  s4 = 'tophat'
+	e)title capitalizes the first character of each separate word
+	  and makes the rest of the string lowercase
+	  s1 = 'Concord'
+      s2 = 'Souix City'
+	  s3 = 'Honolulu'
+	  s4 = 'Tophat'
+----------------------------------------------------------------
+20) It counts the character that was specified in the ().
+    For the example given:
+	some_string = "Hello World"
+    some_string.count("o")
+	the output is 2 because there are two 'o's in the string.
+----------------------------------------------------------------
+23)
+    a) string = '####################'
+	   string+string+string+string
+	b) string = "#\n"
+	  print(string*30)
+----------------------------------------------------------------
+29)alphabet = "abcdefghij"
+    a) alphabet[::-1]
+	b) alphabet[::3]
+	c) alphabet[-2::-2]
+----------------------------------------------------------------	

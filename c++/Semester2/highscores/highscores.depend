@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1391735792 source:f:\school-vvc-s2014\c++\highscores\highscores.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+	<cstring>
+

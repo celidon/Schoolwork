@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1384460288 source:c:\users\tony\google drive\school-vvc-f2013\c++\week11\computerlab\computer_lab.cpp
+	<iostream>
+	<cstdlib>
+	<iomanip>
+

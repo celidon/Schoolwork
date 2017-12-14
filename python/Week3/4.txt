@@ -1,0 +1,8 @@
+a)  First fit: Find any parking space in the parking lot.
+    Park there and walk to the store.
+b)  Best fit: Drive to the front of the parking lot. Search
+    for a space in the quarter closest to the store. Park when
+	such a space is found.
+c)  First fit saves more time because you are already walking
+    while the person following best fit is still looking for a
+	place to park their car.

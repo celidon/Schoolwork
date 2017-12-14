@@ -1,0 +1,16 @@
+/*
+File Name: ProgramDescription.txt
+Description:This program is designed to simulate a battle between a monster and
+			a hero. The majority of the code was prewritten. The assignemnt was
+			to modify the code so that the hero and the monster class both pulled
+			all similarities from their super class and so that a health counter
+			and damage dealing method was implemented for both. I also editted 
+			the original way how hits(and in turn damage) was determined as well
+			as gave the hero a 25% chance to dodge an attack while the monster 
+			received an increase in both strength and health. The separate class are all
+			driven by the FightSimulatorMain.java file.
+Author: Anthony Hansen
+Email Address: hansen.tony92@gmail.com
+Date Created: Sun May 18 21:55:01 PDT 2014
+*/
+

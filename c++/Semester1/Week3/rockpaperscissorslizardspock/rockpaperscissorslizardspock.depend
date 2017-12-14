@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1379015802 source:f:\c++\week 3\rockpaperscissorslizardspock\rockpaperscissorslizardspock.cpp
+	<iostream>
+	<cstdlib>
+

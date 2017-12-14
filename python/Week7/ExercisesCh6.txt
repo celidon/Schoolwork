@@ -1,0 +1,173 @@
+"""
+File Name: ExercisesCh6.txt
+Developer: Anthony Hansen
+Date Last Modified: 02.10.2013
+Description: The assignment was to do Exercises 13, 14, 15, 19, and 22
+             from Chapter 6 of the text. The description of each exercise
+			 is found above the solution.
+Email Address: hansen.tony92@gmail.com 
+"""
+
+"""
+13--Define a function 'make_payment(P)' that error checks a payment on a credit card balance. The credit limit is $1000 and the minimum payment is
+$20.
+"""
+def make_payment(P):
+    
+    limit = int(1000)
+    min_P = int(20)
+
+    if(limit >= P >= min_P):
+        print("Success!")
+    elif(P < min_P):
+        print("Retry\nYour minimum payment is $20")
+    else:
+        print("Retry\nYour payment must be less than your limit of $1000")
+		
+"""
+14--Write a function that takes the amount of money a user wants to
+put on a calling card and then outputs the amount they really receive
+through special offers.
+"""
+def card_amount():
+    
+    print("Please select how much to add to your card:\n")
+    print("$5 $10 $20 $50 $100\n")
+    payment = int(input("$"))
+    
+    if(payment == 5) or (payment == 10):
+        amount = payment
+    elif(payment == 20):
+        amount = payment + 3
+        print("You receive a bonus of $3\n")
+    elif(payment == 50):
+        amount = payment + 8
+        print("You receive a bonus of $8\n")
+    elif(payment == 100):
+        amount = payment + 20
+        print("You receive a bonus of $20\n")
+    else:
+        amount = 0
+        print("Sorry, that amount is not an option")
+
+    print("You now have $",amount," on your card")
+	
+"""
+15a--Write a function that the number of characters in a string
+for a chat program. If the message is 160 characters or less, it
+will be returned. If the message is more than 160 characters, only
+the first 160 will be shown.
+"""
+def char_limit(s):
+
+    length = len(s)
+
+    if(length < 160):
+        print(s)
+    else:
+        print(s[:160])
+
+"""
+15b--Write a function like the one from part a, but have it limit the words to 20
+"""
+def word_limit(s):
+
+    words = s.split(" ")
+    length = len(words)
+
+    if(length<=20):
+        print(s)
+    else:
+        word2 = words[0:20]
+        short_s = ' '.join(word2)
+        print(short_s)
+
+"""
+19--Write a function that takes as input a string that stores date and
+time (24-hour clock) in the following format "MM/DD/YYYY HR:MIN:SEC" and
+prints out the following:
+DD/MM/YYYY
+HR:MIN:SEC
+MM/YYYY
+AM or PM
+"""
+def date_time(info):
+
+#Separating the date from the time
+    data=info.split(" ")
+
+#Separating out everything for usage and reordering
+    date = data[0].split("/")
+    time = data[1].split(":")
+
+    month = int(date[0])
+    day = int(date[1])
+    year = int(date[2])
+
+    hour = int(time[0])
+    minute = int(time[1])
+    sec = int(time[2])
+    
+#Determining if the month and day are valid
+    if(hour > 24):
+        print("Hour invalid")
+    elif(minute > 60):
+        print("Minute invalid")
+    elif(sec > 60):
+        print("Seconds invalid")
+    else:
+#Determining if it is AM or PM and converting to 12-hour time
+        if(hour > 12):
+            am_pm = "PM"
+            hour = hour - 12
+        elif(hour == 12):
+            am_pm = "PM"
+        elif(hour == 0):
+            am_pm = "AM"
+            hour = 12
+        else:
+            am_pm = "AM"
+
+#Determining if the month and day are valid
+        if(1 > month or month > 12):
+            print("Month invalid")
+        else:
+            if(1 > day > 31):
+                print("Day invalid")
+            elif(day > 30 and month == 4 or month == 6 or month == 9 or month == 11):
+                print("Day invalid")
+            elif(day > 28 and month == 2):
+                print("Day invalid")
+            else:
+#Printing everything out if everything is valid
+                print(day,"/",month,"/",year,"\n")
+                print(hour,":",minute,":",sec,am_pm,"\n")
+                print(month,"/",year,"\n")
+
+"""
+22--Write a function that takes the input of a string of length three
+representing a set and returns all the permutations of that string.
+"""
+def permutations(string):
+    length = len(string)
+    list_perm = []
+
+    for i in range(length):
+
+        new1 = string[i]+string[:i]+string[i+1:]
+        list_perm.append(new1)
+        new2 =new1[0]+new1[2]+new1[1]
+        list_perm.append(new2)
+    
+        j = i + 1
+        new1 = string[j]+string[:j]+string[j+1:]
+        list_perm.append(new1)
+        new2 =new1[0]+new1[2]+new1[1]
+        list_perm.append(new2)
+    
+        k = j + 1
+        new1 = string[k]+string[:k]+string[k+1:]
+        list_perm.append(new1)
+        new2 =new1[0]+new1[2]+new1[1]
+        list_perm.append(new2)
+        return(', '.join(list_perm))

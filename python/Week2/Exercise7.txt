@@ -1,0 +1,17 @@
+"""
+
+File Name: Exercise7.txt
+Developer: Anthony Hansen
+Date Last Modified: 5.09.2013
+Description: The assignment was to evaluate a function in Python and answer
+             questions about it.			
+Email Address: hansen.tony92@gmail.com
+
+"""
+
+Consider the Python function range(a,b). Label these statements as True or False
+
+    -Value "a" is included in the range.
+	    True
+	-Value "b" is included in the range.
+	    False

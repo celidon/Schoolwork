@@ -1,0 +1,8 @@
+a)  Algorithm - a set instructions on how to solve a problem
+    Program - an algorithm put in action through a computer
+	
+b)  They both contain sets of instructions and allow us to solve complex problems.
+
+c)  A program is generally has more specific detail than an algorithm so that the computer can actually
+    accomplish the given task. It's like telling someone where a pan in a kitchen is rather than just
+	telling them to get a pan. Also, programs are interpreted algorithms.

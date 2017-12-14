@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1386268916 source:c:\users\tony\google drive\school-vvc-f2013\c++\week13--final\final\tortoisevshare.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

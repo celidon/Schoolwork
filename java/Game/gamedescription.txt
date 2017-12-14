@@ -1,0 +1,11 @@
+/*
+File Name: gamedescription.txt
+Description: The assignment was to take the grid we created last week and use
+			 it to implement a simple game. The game uses key event to move a
+			 "hero" around. When the hero is within one block of the monster,
+			 they fight for 10 rounds or until someone dies. The game then ends
+Author: Anthony Hansen
+Email Address: hansen.tony92@gmail.com
+Date Created: Tue May 27 09:52:46 PDT 2014
+*/
+
