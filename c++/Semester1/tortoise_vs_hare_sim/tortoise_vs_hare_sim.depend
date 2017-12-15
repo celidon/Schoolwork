@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1386271327 source:c:\users\tony\google drive\school-vvc-f2013\c++\tortoise_vs_hare_sim\main.cpp
-	<iostream>
-	<ctime>
-	<cstdlib>
-
